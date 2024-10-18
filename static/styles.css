@@ -1,0 +1,286 @@
+.watermark {
+    position: fixed;
+    bottom: 5px; /* Adjust the distance from the bottom */
+    left: 92%;
+    transform: translateX(-50%);
+    opacity:0.8;
+    font-size: 14px;
+    color: black; /* Adjust the color and opacity */
+}
+.watermark img {
+    height: 80px; /* Adjust the height of the image */
+    width: 155px;
+    color: #111;
+    background: transparent;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+    margin-left: 5px; /* Add some space between text and image */
+    text-align: end; /* Align image vertically with text */
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.img-txt{
+    font-size: 12px;
+    position: absolute;
+    top: 8px;
+}
+.st-emotion-cache-18ni7ap {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 2.875rem;
+    background: rgb(255, 255, 255);
+    outline: none;
+    z-index: 999990;
+    display: block;
+    visibility: hidden;
+}
+
+
+.st-emotion-cache-1r4qj8v {
+    position: absolute;
+    background: rgb(255, 255, 255);
+    color: rgb(49, 51, 63);
+    inset: 0px;
+    color-scheme: light;
+    overflow: hidden;
+}
+.st-emotion-cache-7tauuy {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-top: -170px;
+}
+p, ol, ul, dl {
+    font-family: 'Source Sans Pro';
+    margin: 0px 0px 1rem;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+ 
+}
+.st-emotion-cache-1jicfl2 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+margin-top: -170px;}
+h1{
+    font-family: 'Karla';
+    font-weight: bold;
+    font-size: 42px;
+    color:black;
+    padding: 1.25rem 0px 1rem;
+    margin: 0px;
+    line-height: 1.2;
+}
+
+.fixed-header img{
+    height: 40px;
+    margin-left: 20px;
+    
+}
+
+/* sidebar */
+.st-emotion-cache-6qob1r{
+    background: linear-gradient(to bottom, #c8ae94,70%, #3eacda);
+}
+/* 
+main section */
+.block-container {
+    padding: 90px 0px;
+
+}
+
+/* tabs */
+.st-ae{
+    padding: 0px 50px;
+}
+.st-emotion-cache-1jmvea6 p {
+    word-break: break-word;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    letter-spacing: 1.3px;
+}
+
+.st-emotion-cache-1jmvea6 p:hover {
+    word-break: break-word;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    color: black;
+}
+.st-emotion-cache-7ym5gk {
+    
+    left: 0px;
+    top: 0px;
+    width: 150px;
+    height: 45px;
+    background: inherit;
+    background-color: rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(210, 210, 210, 1);
+    border-radius: 4px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 18px;
+}
+/* Button while hover */
+.st-emotion-cache-7ym5gk:hover{
+    background-color: rgba(82,54,171,1);
+    color: rgb(19, 3, 3);
+    border-color: rgba(210, 210, 210, 1);
+}
+/* Button while active */
+.st-emotion-cache-7ym5gk:active {
+    color: rgb(15, 1, 1);
+    border-color: rgba(210, 210, 210, 1);;
+    background-color: rgba(82,54,171,1);
+}
+/* Button while focus */
+.st-emotion-cache-7ym5gk:focus:not(:active) {
+    border-color:  rgba(210, 210, 210, 1);
+    color: rgb(9, 8, 8);
+}
+/* about the audio while hover */
+.st-emotion-cache-p5msec:hover {
+    color: rgb(255, 255, 255);
+}
+.st-emotion-cache-1jmvea6 p:focus {
+    word-break: break-word;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    color:black;
+}
+
+/* send button */
+
+.st-dz {
+    border-bottom-color: white;
+}
+.st-ay {
+    border-bottom-color:transparent;
+    border-top-color:transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+}
+[data-testid="stExpander"]{
+    max-height: 300px;
+    overflow-y: auto;
+
+}
+[data-testid="stTabs"]{
+    max-height: 500px;
+    overflow-y: auto;
+}
+.stFileUploaderFileData {
+    display: none;
+    bottom: 20%;
+
+}
+
+
+[data-testid="stFileUploader"]{
+        bottom: 10%;
+        position: fixed;
+        margin-bottom: -10px;
+}
+[data-testid='stFileUploader'] {
+    width: max-content;
+    margin-bottom: -10px;
+    z-index: 1;
+    position: fixed;
+}
+[data-testid='stFileUploader'] section {
+    padding: 0;
+    float: left;
+    margin-bottom: -10px;
+}
+[data-testid='stFileUploader'] section > input + div {
+    display: none;
+    margin-bottom: -10px;
+}
+[data-testid='stFileUploader'] section + div {
+    float: right;
+    padding-top: 0;
+    margin-bottom: -10px;
+}
+
+.st-emotion-cache-1up18o9:disabled {
+    background-color:  rgba(82,54,171,1);
+    border-color: transparent;
+    color: white;
+}
+.st-emotion-cache-12xsiil {
+    visibility: hidden;
+}
+
+.fixed-header {
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.fixed-header img {
+    height: 40px;
+    margin-left: 60px;
+}
+
+
+.fixed-header h1 {
+    margin: 0;
+    font-size: 38px;
+    color: #333;
+    margin-left: 270px;
+}
+
+
+[data-testid="stChatInput"] {
+    position: fixed;
+    bottom: 7.2%;
+    width:1060px;
+    
+   
+}
+
+.st-emotion-cache-f4ro0r {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    pointer-events: none;
+}
+
+
+
+h2 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    color: rgb(49, 51, 63);
+    letter-spacing: -0.005em;
+    padding: 1rem 0px;
+    margin: 0px;
+    line-height: 0;
+    font-size: 20px;
+}
+
+.stFileUploader .st-emotion-cache-fis6aj{display:none}
+
+[data-baseweb="textarea"] {
+    width: 1060px;
+}
+
